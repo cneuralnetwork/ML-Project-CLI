@@ -1,4 +1,4 @@
-# ML Project Structure Creator
+# ML Project Template Generator
 
 This tool is a command-line interface (CLI) application that automatically creates a standardized file structure for machine-learning projects. It sets up necessary directories and files, making it easier to organize your ML workflow.
 
