@@ -24,14 +24,14 @@ output_folder/
 - Python 3.6 +
 
 ## Installation
-1. Clone this repository or download the `create_project_structure.py` file.
+1. Clone this repository or download the `mlp_cli.py` file.
 2. Ensure you have Python installed on your system.
 
 ## Usage
 
 Run the script from the command line with the following syntax:
 ```
-python create_project_structure.py create <output_folder> <dataset_folder>
+python mlp_cli.py create <output_folder> <dataset_folder>
 ```
 Where:
 - `<output_folder>` is the path where you want to create the project structure
@@ -39,7 +39,7 @@ Where:
 
 Example:
 ```
-python create_project_structure.py create ./my_ml_project ./my_dataset
+python mlp_cli.py create ./my_ml_project ./my_dataset
 ```
 
 This command will create the project structure in `./my_ml_project` using the dataset from `./my_dataset`.
