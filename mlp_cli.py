@@ -27,6 +27,6 @@ def main():
         create_file_structure(args.output_folder, args.dataset_folder)
         print(f"File structure created successfully in {args.output_folder}")
     else:
-        print(f"Unknown command: {args.command}")
+        parser.error(f"Unknown command: {args.command}")
 if __name__ == "__main__":
     main()
